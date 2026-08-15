@@ -15,9 +15,17 @@ Instagram: https://www.instagram.com/adintecho.official/
 - Email and SMS follow-up automation
 - Reporting and custom business automation
 
+## How the system works
+
+A typical Adintecho workflow captures an inquiry from a website, phone call, or form; records the contact in a CRM; qualifies the opportunity; offers an available appointment; and triggers the appropriate email or SMS follow-up. Exact workflows and integrations are confirmed during discovery.
+
 ## Plans
 
-The website lists Starter, Enterprise, and Diamond monthly plans. Current pricing, inclusions, and terms should always be confirmed on https://adintecho.com/#plans.
+- Starter / Launch Pad: $197 per month
+- Enterprise / Growth Engine: $297 per month
+- Diamond / Autopilot Suite: $397 per month
+
+Plans are prepaid monthly. SMS features may require a one-time $70 10DLC registration fee. Current inclusions and terms should always be confirmed at https://adintecho.com/#plans and https://adintecho.com/#terms.
 
 ## Important information
 
