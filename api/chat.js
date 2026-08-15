@@ -1,4 +1,4 @@
-import { gateway, generateText } from 'ai';
+import { APICallError, gateway, generateText } from 'ai';
 
 const allowedOrigins = new Set(['https://adintecho.com', 'http://localhost:3000', 'http://localhost:8000']);
 const minuteWindows = new Map();
@@ -74,7 +74,26 @@ export default async function handler(request, response) {
     console.log(JSON.stringify({ level: 'info', message: 'chat_completed', requestId, ms: Date.now() - startedAt }));
     return send(response, 200, { reply: result.text, requestId });
   } catch (error) {
-    console.error(JSON.stringify({ level: 'error', message: 'chat_failed', requestId, ms: Date.now() - startedAt, error: error instanceof Error ? error.message : String(error) }));
-    return send(response, 503, { error: 'The assistant is temporarily unavailable. Please try again shortly.' });
+    const statusCode = APICallError.isInstance(error) ? error.statusCode : undefined;
+    console.error(JSON.stringify({
+      level: 'error',
+      message: 'chat_failed',
+      requestId,
+      ms: Date.now() - startedAt,
+      statusCode,
+      errorName: error instanceof Error ? error.name : 'UnknownError',
+      error: error instanceof Error ? error.message : String(error),
+    }));
+
+    if (statusCode === 429) {
+      return send(response, 429, { error: 'The assistant is busy right now. Please wait a moment and try again.', code: 'assistant_rate_limited', requestId });
+    }
+    if (statusCode === 401 || statusCode === 403) {
+      return send(response, 503, { error: 'The assistant is temporarily unavailable while its secure connection is restored.', code: 'assistant_not_configured', requestId });
+    }
+    if (statusCode === 402) {
+      return send(response, 503, { error: 'The assistant is temporarily unavailable while service capacity is restored.', code: 'assistant_capacity', requestId });
+    }
+    return send(response, 503, { error: 'The assistant is temporarily unavailable. Please try again shortly.', code: 'assistant_unavailable', requestId });
   }
 }
