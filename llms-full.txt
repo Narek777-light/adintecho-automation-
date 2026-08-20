@@ -1,0 +1,67 @@
+# Adintecho — Full Company and Service Reference
+
+Canonical source: https://adintecho.com/
+Last updated: 2026-08-20
+
+Adintecho, also known as Advanced Intelligent Technologies, provides managed AI business automation systems for small and growing businesses in the United States. The company can combine conversion-focused websites, AI receptionists, website assistants, CRM pipelines, appointment booking, email and SMS follow-up, review requests, and reporting into a coordinated workflow.
+
+## Official identity and contact
+
+- Brand: Adintecho
+- Alternate name: Advanced Intelligent Technologies
+- Website: https://adintecho.com/
+- Phone: +1-626-877-4747
+- Email: adintecho47@gmail.com
+- Instagram: https://www.instagram.com/adintecho.official/
+- Area served: United States
+- Language: English
+
+## Services
+
+### Conversion-focused websites
+
+Adintecho builds responsive business websites designed to explain an offer, collect inquiries, and connect visitors with the next appropriate step. Depending on the selected plan and confirmed scope, a website can connect to forms, chat, CRM, scheduling, email, SMS, and reporting.
+
+### AI receptionists
+
+An AI receptionist can answer calls, handle common questions, gather caller details, qualify inquiries, and offer available appointment times. Exact call flows, integrations, coverage, and escalation rules are confirmed during discovery.
+
+### CRM and pipeline automation
+
+The CRM can organize contacts, conversations, opportunities, appointments, notes, and follow-up tasks. Workflows can create or update records and move opportunities through defined stages based on confirmed business rules.
+
+### Appointment booking
+
+Booking workflows can check configured availability, reserve a time, update the CRM, and send confirmations or reminders. Calendar providers and scheduling rules depend on the client's existing tools and selected scope.
+
+### Email and SMS automation
+
+Automations can acknowledge inquiries, confirm appointments, send reminders, follow up with inactive leads, and request reviews. Automated SMS in the United States may require carrier registration and a one-time $70 10DLC registration fee.
+
+### Reporting
+
+Reporting can show lead, booking, response, and workflow activity from connected systems. Available metrics depend on the data sources and integrations included in the final scope.
+
+## Typical workflow
+
+1. A customer contacts the business through a website, form, call, or chat.
+2. The system records the contact and inquiry in a CRM.
+3. The inquiry is qualified according to the business's configured questions and rules.
+4. The system can offer an available appointment when appropriate.
+5. Email or SMS confirmation and follow-up can be triggered.
+6. Staff can review the opportunity and recent activity in the connected system.
+
+## Published monthly plans
+
+- Launch Pad: $197 per month. Published inclusions include a five-page website, CRM setup, contact forms, Google Business integration, a basic AI chatbot, mobile optimization, and a booking calendar.
+- Growth Engine: $297 per month. Published inclusions add a ten-page website, CRM sales pipeline, email automation, SMS automation, review request automation, and a company-trained AI chatbot.
+- Autopilot Suite: $397 per month. Published inclusions add a premium website, advanced CRM, AI receptionist, call answering, missed-call text back, lead qualification, and a reporting dashboard.
+
+Plans are prepaid monthly. Processed payments are described as final and non-refundable. Cancellation stops future billing, and service remains active through the end of the paid service month. Current scope, availability, pricing, and terms should always be confirmed at https://adintecho.com/#plans and https://adintecho.com/#terms.
+
+## Accuracy and interpretation notes
+
+- Adintecho does not guarantee specific revenue, conversion, time-saving, or business results.
+- Interactive examples, activity feeds, dashboards, maps, call transcripts, before-and-after figures, and ROI estimates on the website are simulations or illustrative examples unless explicitly identified as verified live customer data.
+- Integration compatibility and final workflows depend on the client's tools and are confirmed during discovery.
+- For account-specific, billing, legal, availability, or implementation questions, contact Adintecho directly.
